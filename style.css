@@ -1,0 +1,54 @@
+html, body {
+    background-color: red !important;
+    padding: 0;
+    margin: 0;
+}
+
+#weatherBox, #container {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 10px 5px 5px gold;
+}
+
+#weatherBox {
+    margin-top: 20px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: orange;
+}
+
+.list .element:hover {
+    color: white;
+    background-color: purple;
+}
+
+#textInput {
+    font-family: 'Ephesis', sans-serif;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+#container {
+    margin-top: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    background-color: yellow;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}    
+
+.task {
+    margin-left: 10px;
+}
+
+h2 {
+    padding-top: 20px;
+}
